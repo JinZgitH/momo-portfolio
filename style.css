@@ -524,13 +524,14 @@ main {
 }
 
 body.dark .header {
-  background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/hero-bg.webp");
+  background-image: linear-gradient(#00000054, #00000094),
+    url("assets/images/hero-bg-light.webp");
 }
 
 body.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/hero-bg-light.webp");
+    url("assets/images/coffee1.png");
+    /* url("assets/images/hero-bg-light.webp"); */
 }
 
 .header-textbox {
