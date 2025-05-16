@@ -149,6 +149,33 @@ h3,
 
 .h1 {
   font-size: var(--h1);
+  line-height: 1.2;
+  margin-block-end: var(--gutter-micro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gutter-medium);
+}
+
+.h1 > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter-2xs);
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 3px solid rgba(255, 68, 68, 0.7);
+}
+
+.profile-image:hover {
+  transform: scale(1.2);
+  border-color: rgba(255, 68, 68, 0.9);
 }
 
 .h2 {
